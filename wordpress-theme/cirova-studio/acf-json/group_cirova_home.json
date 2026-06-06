@@ -1,0 +1,41 @@
+{
+  "key": "group_cirova_home",
+  "title": "Home — Content",
+  "fields": [
+    { "key": "field_cs_hero_status", "label": "Hero status badge", "name": "hero_status", "type": "text", "instructions": "Pill above the headline.", "default_value": "Now booking projects for Q3" },
+    { "key": "field_cs_hero_heading", "label": "Hero heading", "name": "hero_heading", "type": "textarea", "rows": 3, "new_lines": "", "instructions": "Wrap the highlighted words in <em>…</em> for the pink gradient. Use <br> for line breaks.", "default_value": "Your Brand Deserves <em>Better Growth.</em> Start With Cirova Studio" },
+    { "key": "field_cs_hero_sub", "label": "Hero sub-text", "name": "hero_subtext", "type": "textarea", "rows": 3, "new_lines": "", "default_value": "Cirova Studio helps brands grow faster with expert video editing, social media management, content writing, website design, and performance ads — delivering strategic, high-impact marketing without managing multiple freelancers." },
+    { "key": "field_cs_hero_cta1_t", "label": "Primary button text", "name": "hero_cta1_text", "type": "text", "default_value": "Book a Free Discovery Call" },
+    { "key": "field_cs_hero_cta1_l", "label": "Primary button link", "name": "hero_cta1_link", "type": "text", "default_value": "/contact/" },
+    { "key": "field_cs_hero_cta2_t", "label": "Secondary button text", "name": "hero_cta2_text", "type": "text", "default_value": "See Our Services" },
+    { "key": "field_cs_hero_cta2_l", "label": "Secondary button link", "name": "hero_cta2_link", "type": "text", "default_value": "#services" },
+
+    { "key": "field_cs_stats", "label": "Stats (counters)", "name": "home_stats", "type": "repeater", "instructions": "Leave empty to use the defaults. Number is the value the counter animates to.", "layout": "table", "button_label": "Add stat", "min": 0, "sub_fields": [
+      { "key": "field_cs_stat_num", "label": "Number", "name": "num", "type": "text" },
+      { "key": "field_cs_stat_suf", "label": "Suffix", "name": "suffix", "type": "text", "instructions": "e.g. +  %  x", "default_value": "+" },
+      { "key": "field_cs_stat_lbl", "label": "Label", "name": "label", "type": "text" }
+    ]},
+
+    { "key": "field_cs_testi", "label": "Testimonials", "name": "home_testimonials", "type": "repeater", "instructions": "Leave empty to use the defaults.", "layout": "row", "button_label": "Add testimonial", "min": 0, "sub_fields": [
+      { "key": "field_cs_testi_q", "label": "Quote", "name": "quote", "type": "textarea", "rows": 3, "new_lines": "" },
+      { "key": "field_cs_testi_n", "label": "Name", "name": "name", "type": "text" },
+      { "key": "field_cs_testi_r", "label": "Role / company", "name": "role", "type": "text" },
+      { "key": "field_cs_testi_a", "label": "Avatar", "name": "avatar", "type": "image", "return_format": "array", "preview_size": "thumbnail" }
+    ]},
+
+    { "key": "field_cs_faq", "label": "FAQ", "name": "home_faq", "type": "repeater", "instructions": "Leave empty to use the defaults.", "layout": "row", "button_label": "Add question", "min": 0, "sub_fields": [
+      { "key": "field_cs_faq_q", "label": "Question", "name": "question", "type": "text" },
+      { "key": "field_cs_faq_a", "label": "Answer", "name": "answer", "type": "textarea", "rows": 3, "new_lines": "" }
+    ]}
+  ],
+  "location": [[{ "param": "page_type", "operator": "==", "value": "front_page" }]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "Editable hero, stats, testimonials and FAQ for the home page.",
+  "show_in_rest": 0
+}

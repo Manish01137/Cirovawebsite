@@ -1,0 +1,91 @@
+ORIGINAL URL  ->  LOCAL FILE
+================================================
+https://cirovastudio.com/wp-content/uploads/2026/04/CS-logo.png  ->  cs-logo.png
+https://i.pravatar.cc/300?img=12  ->  avatar-12.jpg
+https://i.pravatar.cc/300?img=15  ->  avatar-15.jpg
+https://i.pravatar.cc/300?img=33  ->  avatar-33.jpg
+https://i.pravatar.cc/300?img=47  ->  avatar-47.jpg
+https://i.pravatar.cc/300?img=49  ->  avatar-49.jpg
+https://i.pravatar.cc/300?img=68  ->  avatar-68.jpg
+https://i.pravatar.cc/300?img=8  ->  avatar-8.jpg
+https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80&auto=format&fit=crop  ->  u-1438761681033-200.jpg
+https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80&auto=format&fit=crop  ->  u-1450101499163-600.jpg
+https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80&auto=format&fit=crop  ->  u-1454165804606-400.jpg
+https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&q=80&auto=format&fit=crop  ->  u-1454165804606-900.jpg
+https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500&q=80&auto=format&fit=crop  ->  u-1455390582262-500.jpg
+https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=80&auto=format&fit=crop  ->  u-1455390582262-900.jpg
+https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80&auto=format&fit=crop  ->  u-1460925895917-500.jpg
+https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80&auto=format&fit=crop  ->  u-1460925895917-900.jpg
+https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80&auto=format&fit=crop  ->  u-1472099645785-200.jpg
+https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&q=80&auto=format&fit=crop  ->  u-1485846234645-400.jpg
+https://images.unsplash.com/photo-1485846234645-a62644f84728?w=900&q=80&auto=format&fit=crop  ->  u-1485846234645-900.jpg
+https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&q=80&auto=format&fit=crop  ->  u-1486312338219-400.jpg
+https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=400&q=80&auto=format&fit=crop  ->  u-1487014679447-400.jpg
+https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=600&q=80&auto=format&fit=crop  ->  u-1487014679447-600.jpg
+https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&q=80&auto=format&fit=crop  ->  u-1492691527719-400.jpg
+https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=900&q=80&auto=format&fit=crop  ->  u-1492691527719-900.jpg
+https://images.unsplash.com/photo-1493804714600-6edb1cd93080?w=400&q=80&auto=format&fit=crop  ->  u-1493804714600-400.jpg
+https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&auto=format&fit=crop  ->  u-1494790108377-200.jpg
+https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=600&q=80&auto=format&fit=crop  ->  u-1497515114629-600.jpg
+https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=400&q=80&auto=format&fit=crop  ->  u-1499750310107-400.jpg
+https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=900&q=80&auto=format&fit=crop  ->  u-1499750310107-900.jpg
+https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80&auto=format&fit=crop  ->  u-1500648767791-200.jpg
+https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?w=400&q=80&auto=format&fit=crop  ->  u-1500916434205-400.jpg
+https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?w=600&q=80&auto=format&fit=crop  ->  u-1500916434205-600.jpg
+https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?w=900&q=80&auto=format&fit=crop  ->  u-1500916434205-900.jpg
+https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=500&q=80&auto=format&fit=crop  ->  u-1517048676732-500.jpg
+https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900&q=80&auto=format&fit=crop  ->  u-1517048676732-900.jpg
+https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=900&q=80&auto=format&fit=crop  ->  u-1517336714731-900.jpg
+https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=80&auto=format&fit=crop  ->  u-1521737711867-600.jpg
+https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=80&auto=format&fit=crop  ->  u-1522071820081-900.jpg
+https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80&auto=format&fit=crop  ->  u-1522202176988-800.jpg
+https://images.unsplash.com/photo-1525130413817-d45c1d127c42?w=600&q=80&auto=format&fit=crop  ->  u-1525130413817-600.jpg
+https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&q=80&auto=format&fit=crop  ->  u-1531403009284-500.jpg
+https://images.unsplash.com/photo-1535016120720-40c646be5580?w=400&q=80&auto=format&fit=crop  ->  u-1535016120720-400.jpg
+https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=400&q=80&auto=format&fit=crop  ->  u-1542626991-400.jpg
+https://images.unsplash.com/photo-1542744095-291d1f67b221?w=500&q=80&auto=format&fit=crop  ->  u-1542744095-500.jpg
+https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&q=80&auto=format&fit=crop  ->  u-1542744173-500.jpg
+https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=900&q=80&auto=format&fit=crop  ->  u-1542744173-900.jpg
+https://images.unsplash.com/photo-1543536448-d209d2d13a1c?w=400&q=80&auto=format&fit=crop  ->  u-1543536448-400.jpg
+https://images.unsplash.com/photo-1543536448-d209d2d13a1c?w=900&q=80&auto=format&fit=crop  ->  u-1543536448-900.jpg
+https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&q=80&auto=format&fit=crop  ->  u-1547658719-1200.jpg
+https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&q=80&auto=format&fit=crop  ->  u-1547658719-500.jpg
+https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=400&q=80&auto=format&fit=crop  ->  u-1551033406-400.jpg
+https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=600&q=80&auto=format&fit=crop  ->  u-1551033406-600.jpg
+https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=80&auto=format&fit=crop  ->  u-1551288049-900.jpg
+https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80&auto=format&fit=crop  ->  u-1551434678-800.jpg
+https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80&auto=format&fit=crop  ->  u-1551836022-600.jpg
+https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&q=80&auto=format&fit=crop  ->  u-1552664730-900.jpg
+https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?w=600&q=80&auto=format&fit=crop  ->  u-1554415707-600.jpg
+https://images.unsplash.com/photo-1556742111-a301076d9d18?w=600&q=80&auto=format&fit=crop  ->  u-1556742111-600.jpg
+https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80&auto=format&fit=crop  ->  u-1556761175-600.jpg
+https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&q=80&auto=format&fit=crop  ->  u-1556761175-400.jpg
+https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500&q=80&auto=format&fit=crop  ->  u-1556761175-500.jpg
+https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80&auto=format&fit=crop  ->  u-1558618666-900.jpg
+https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&q=80&auto=format&fit=crop  ->  u-1559028012-800.jpg
+https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80&auto=format&fit=crop  ->  u-1559136555-600.jpg
+https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80&auto=format&fit=crop  ->  u-1560518883-600.jpg
+https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=400&q=80&auto=format&fit=crop  ->  u-1564769662533-400.jpg
+https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500&q=80&auto=format&fit=crop  ->  u-1574717024653-500.jpg
+https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=900&q=80&auto=format&fit=crop  ->  u-1574717024653-900.jpg
+https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80&auto=format&fit=crop  ->  u-1593642632559-800.jpg
+https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=400&q=80&auto=format&fit=crop  ->  u-1598899134739-400.jpg
+https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=500&q=80&auto=format&fit=crop  ->  u-1611162616305-500.jpg
+https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=900&q=80&auto=format&fit=crop  ->  u-1611162616305-900.jpg
+https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=400&q=80&auto=format&fit=crop  ->  u-1611162617213-400.jpg
+https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&q=80&auto=format&fit=crop  ->  u-1611162617213-500.jpg
+https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80&auto=format&fit=crop  ->  u-1611162617213-800.jpg
+https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&q=80&auto=format&fit=crop  ->  u-1626785774573-1200.jpg
+https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500&q=80&auto=format&fit=crop  ->  u-1626785774573-500.jpg
+
+================================================================
+NOTES
+- All 77 source images downloaded successfully (0 failures).
+- Logo: downloaded from https://cirovastudio.com/wp-content/uploads/2026/04/CS-logo.png
+  (the live WordPress original) -> assets/img/cs-logo.png. No placeholder needed.
+- Filenames: Unsplash photos saved as u-<photoID>-<width>.jpg (same photo at
+  multiple widths kept as separate files, matching the source markup); Pravatar
+  avatars saved as avatar-<n>.jpg.
+- The rebuild uses a curated subset of these images; the full set is retained
+  here as the complete extracted asset library. Nothing is hot-linked at runtime.
+- No substitutions were required (every original download returned HTTP 200).

@@ -1,0 +1,368 @@
+<?php get_header(); ?>
+<main>
+
+<!-- SECTION: HERO -->
+<section class="hero" id="top">
+  <span class="hero__blob" aria-hidden="true"></span>
+  <span class="hero__blob-2" aria-hidden="true"></span>
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <span class="scroll-hint">Scroll to explore <span class="icon i-chevron-down" aria-hidden="true"></span></span>
+      <div class="hero__rating">
+        <span class="rating"><span class="stars" aria-label="5 out of 5 stars">
+          <span class="icon i-star-filled"></span><span class="icon i-star-filled"></span><span class="icon i-star-filled"></span><span class="icon i-star-filled"></span><span class="icon i-star-filled"></span>
+        </span> <b>200+ brands</b> trust Cirova Studio</span>
+      </div>
+      <span class="badge-status"><span class="dot"></span> <?php echo esc_html( cs_field( 'hero_status', cs_field( 'booking_status', 'Now booking projects for Q3', true ) ) ); ?></span>
+      <h1 class="h1"><span class="word"><span><?php echo wp_kses( cs_field( 'hero_heading', 'Your Brand Deserves <em>Better Growth.</em> Start With Cirova Studio' ), array( 'em' => array(), 'br' => array(), 'strong' => array() ) ); ?></span></span></h1>
+      <p class="lead"><?php echo esc_html( cs_field( 'hero_subtext', 'Cirova Studio helps brands grow faster with expert video editing, social media management, content writing, website design, and performance ads — delivering strategic, high-impact marketing without managing multiple freelancers.' ) ); ?></p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="<?php echo esc_url( cs_field( 'hero_cta1_link', home_url('/contact/') ) ); ?>"><?php echo esc_html( cs_field( 'hero_cta1_text', 'Book a Free Discovery Call' ) ); ?> <span class="icon i-arrow-right" aria-hidden="true"></span></a>
+        <a class="btn btn--ghost" href="<?php echo esc_url( cs_field( 'hero_cta2_link', '#services' ) ); ?>"><?php echo esc_html( cs_field( 'hero_cta2_text', 'See Our Services' ) ); ?></a>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <!-- rotating "watch our reel" disc -->
+      <a href="#work" class="hero-reel" aria-label="Watch our reel">
+        <span class="hero-reel__spin" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <defs><path id="reelCircle" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0"/></defs>
+            <text><textPath href="#reelCircle">WATCH OUR REEL &middot; WATCH OUR REEL &middot; </textPath></text>
+          </svg>
+        </span>
+        <span class="hero-reel__center"><span class="icon i-play" aria-hidden="true"></span></span>
+      </a>
+
+      <!-- two columns of cards streaming vertically (signature element) -->
+      <div class="hero-stream" aria-hidden="true">
+        <div class="hero-stream__col">
+          <div class="hero-scard"><span class="tag">Video</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1574717024653-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Brand</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1626785774573-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Web</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1547658719-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Reels</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1611162617213-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Design</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1556761175-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Edit</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1542744173-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <!-- duplicate for seamless loop -->
+          <div class="hero-scard"><span class="tag">Video</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1574717024653-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Brand</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1626785774573-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Web</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1547658719-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Reels</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1611162617213-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Design</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1556761175-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Edit</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1542744173-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+        </div>
+        <div class="hero-stream__col down">
+          <div class="hero-scard"><span class="tag">Social</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1611162616305-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Ads</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1460925895917-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Content</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1455390582262-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Strategy</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1521737711867-600.jpg" alt="" loading="lazy" width="600" height="750"></div>
+          <div class="hero-scard"><span class="tag">Growth</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1559028012-800.jpg" alt="" loading="lazy" width="800" height="1000"></div>
+          <div class="hero-scard"><span class="tag">Studio</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1551434678-800.jpg" alt="" loading="lazy" width="800" height="1000"></div>
+          <!-- duplicate for seamless loop -->
+          <div class="hero-scard"><span class="tag">Social</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1611162616305-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Ads</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1460925895917-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Content</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1455390582262-500.jpg" alt="" loading="lazy" width="500" height="625"></div>
+          <div class="hero-scard"><span class="tag">Strategy</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1521737711867-600.jpg" alt="" loading="lazy" width="600" height="750"></div>
+          <div class="hero-scard"><span class="tag">Growth</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1559028012-800.jpg" alt="" loading="lazy" width="800" height="1000"></div>
+          <div class="hero-scard"><span class="tag">Studio</span><img src="<?php echo cs_uri(); ?>/assets/img/u-1551434678-800.jpg" alt="" loading="lazy" width="800" height="1000"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: STATS / TRUST -->
+<section class="section section--tight">
+  <div class="container">
+    <p class="stats-note">Trusted for creative and digital marketing support across content, design, websites, and paid campaigns.</p>
+    <div class="stats reveal" style="margin-top:1.25rem">
+      <?php
+      if ( function_exists( 'have_rows' ) && have_rows( 'home_stats' ) ) :
+        while ( have_rows( 'home_stats' ) ) : the_row();
+          $cs_n = get_sub_field( 'num' ); $cs_s = get_sub_field( 'suffix' ); $cs_l = get_sub_field( 'label' ); ?>
+          <div class="stat"><div class="num" data-count="<?php echo esc_attr( $cs_n ); ?>">0<em><?php echo esc_html( $cs_s ); ?></em></div><p><?php echo esc_html( $cs_l ); ?></p></div>
+        <?php endwhile;
+      else :
+        $cs_defaults = array(
+          array( '200', '+', 'Editors' ), array( '100', '+', 'Experts' ),
+          array( '50', '+', 'Projects Completed' ), array( '99', '%', 'Happy Clients' ),
+        );
+        foreach ( $cs_defaults as $d ) : ?>
+          <div class="stat"><div class="num" data-count="<?php echo esc_attr( $d[0] ); ?>">0<em><?php echo esc_html( $d[1] ); ?></em></div><p><?php echo esc_html( $d[2] ); ?></p></div>
+        <?php endforeach;
+      endif; ?>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: BRAND MARQUEE -->
+<section class="section--tight">
+  <div class="container"><p class="center muted" style="font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1.25rem">Trusted by ambitious brands</p></div>
+  <div class="marquee marquee--brands">
+    <div class="marquee__track">
+      <span class="marquee__item">Lumen Co.</span><span class="marquee__item">Northwind</span><span class="marquee__item">Halo Goods</span><span class="marquee__item">Foundry</span><span class="marquee__item">BrightLane</span><span class="marquee__item">Stellar &amp; Co</span><span class="marquee__item">Meridian</span><span class="marquee__item">Kinfolk</span>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: KEYWORD MARQUEE -->
+<div class="marquee marquee--keywords marquee--slow">
+  <div class="marquee__track">
+    <span class="marquee__item">Creative <span class="dot"></span></span><span class="marquee__item">Content <span class="dot"></span></span><span class="marquee__item">Growth <span class="dot"></span></span><span class="marquee__item">Reels <span class="dot"></span></span><span class="marquee__item">Ads <span class="dot"></span></span><span class="marquee__item">Websites <span class="dot"></span></span><span class="marquee__item">Strategy <span class="dot"></span></span><span class="marquee__item">Branding <span class="dot"></span></span>
+  </div>
+</div>
+
+<!-- SECTION: SERVICES -->
+<section class="section section--wash" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Do</span>
+      <h2 class="h2">One Studio for <span class="grad-text">Creative,</span> Content and Growth.</h2>
+      <p class="lead" style="margin-top:1rem">Need a team that can edit your reels, manage your social media, write website content, redesign your site, and run Meta or Google Ads without the usual back-and-forth? Cirova Studio gives you one reliable partner for creative production and digital marketing execution.</p>
+    </div>
+
+    <div class="grid grid--3" style="margin-top:2.5rem">
+      <article class="card svc-card reveal"><span class="card__num">01</span><div class="card__icon"><span class="icon i-film"></span></div><h3>Video Editing</h3><p>Short-form videos, reels, ad creatives, promo videos, talking-head edits, motion graphics, subtitles and campaign content designed to stop the scroll and improve engagement.</p></article>
+      <article class="card svc-card reveal"><span class="card__num">02</span><div class="card__icon"><span class="icon i-share-2"></span></div><h3>Social Media Management</h3><p>Content calendars, post design, captions, scheduling and audience-focused strategy that helps brands stay active and consistent across Instagram, Facebook, LinkedIn, YouTube and more.</p></article>
+      <article class="card svc-card reveal"><span class="card__num">03</span><div class="card__icon"><span class="icon i-pen-tool"></span></div><h3>Content Writing</h3><p>SEO-friendly website copy, service pages, landing pages, blogs, social captions, ad copy and brand messaging that is clear, persuasive and aligned with search intent.</p></article>
+      <article class="card svc-card reveal"><span class="card__num">04</span><div class="card__icon"><span class="icon i-monitor"></span></div><h3>Website Creation &amp; Redesign</h3><p>We design and redesign business websites that look modern, load clearly, communicate value fast and support lead generation through better UX, stronger messaging and conversion-focused structure.</p></article>
+      <article class="card svc-card reveal"><span class="card__num">05</span><div class="card__icon"><span class="icon i-target"></span></div><h3>Google &amp; Meta Ads</h3><p>Launch and optimize paid campaigns across Google and Meta with audience targeting, creative support, campaign setup, copywriting and performance-based refinements.</p></article>
+      <article class="card svc-card reveal"><span class="card__num">06</span><div class="card__icon"><span class="icon i-layers"></span></div><h3>Full Digital Marketing Support</h3><p>Need more than one service? We build custom growth support plans that combine creative production, content, paid media and website improvements into one streamlined workflow.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: KEYWORD MARQUEE 2 -->
+<div class="marquee marquee--keywords marquee--rev">
+  <div class="marquee__track">
+    <span class="marquee__item">Video. <span class="dot"></span></span><span class="marquee__item">Social. <span class="dot"></span></span><span class="marquee__item">Content. <span class="dot"></span></span><span class="marquee__item">Websites. <span class="dot"></span></span><span class="marquee__item">Ads. <span class="dot"></span></span><span class="marquee__item">Growth. <span class="dot"></span></span>
+  </div>
+</div>
+
+<!-- SECTION: PORTFOLIO -->
+<section class="section" id="work">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Selected work</span>
+      <h2 class="h2">A peek at the <span class="grad-text">output.</span></h2>
+      <p class="lead" style="margin-top:1rem">A small slice of campaigns, content and websites we've shipped.</p>
+    </div>
+    <div class="portfolio" style="margin-top:2.5rem">
+      <a class="work reveal" href="#"><img src="<?php echo cs_uri(); ?>/assets/img/u-1542744173-500.jpg" alt="Brand campaign visuals" loading="lazy" width="500" height="375"><span class="work__overlay"><span class="work__tag">Brand campaign</span><h3>Northwind Spring launch</h3></span></a>
+      <a class="work reveal" href="#"><img src="<?php echo cs_uri(); ?>/assets/img/u-1611162616305-500.jpg" alt="Reel series stills" loading="lazy" width="500" height="375"><span class="work__overlay"><span class="work__tag">Video</span><h3>Reel series</h3></span></a>
+      <a class="work reveal" href="#"><img src="<?php echo cs_uri(); ?>/assets/img/u-1556761175-500.jpg" alt="Content suite layout" loading="lazy" width="500" height="375"><span class="work__overlay"><span class="work__tag">Social</span><h3>Content suite</h3></span></a>
+      <a class="work reveal" href="#"><img src="<?php echo cs_uri(); ?>/assets/img/u-1460925895917-500.jpg" alt="Growth strategy blueprint" loading="lazy" width="500" height="375"><span class="work__overlay"><span class="work__tag">Strategy</span><h3>Halo Growth blueprint</h3></span></a>
+      <a class="work reveal" href="#"><img src="<?php echo cs_uri(); ?>/assets/img/u-1531403009284-500.jpg" alt="Brand refresh visuals" loading="lazy" width="500" height="375"><span class="work__overlay"><span class="work__tag">Branding</span><h3>Foundry refresh</h3></span></a>
+      <a class="work reveal" href="#"><img src="<?php echo cs_uri(); ?>/assets/img/u-1455390582262-500.jpg" alt="Website redesign mockup" loading="lazy" width="500" height="375"><span class="work__overlay"><span class="work__tag">Website</span><h3>BrightLane full redesign</h3></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: WHY CIROVA -->
+<section class="section section--wash" id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why Cirova</span>
+      <h2 class="h2">Why Cirova Studio Is Your <span class="grad-text">Best Choice.</span></h2>
+      <p class="lead" style="margin-top:1rem">An integrated team, a clear process and creative work built to perform — not just look good.</p>
+    </div>
+    <div class="grid grid--2" style="margin-top:2.5rem">
+      <div class="hl-card reveal"><div class="big">5+</div><p>disciplines, one team</p><p style="margin-top:.5rem;font-family:var(--font-display);font-size:1.4rem">One studio. Every service.</p></div>
+      <div class="feature reveal"><div class="feature__icon"><span class="icon i-sparkles"></span></div><div><h3>An Integrated Team, Not Scattered Freelancers</h3><p>Cirova Studio brings video editors, content writers, social media specialists, designers and marketing strategists into one coordinated workflow. This integrated approach reduces delays, improves communication and ensures your brand messaging stays consistent across videos, websites, social media and advertising campaigns.</p></div></div>
+      <div class="feature reveal"><div class="feature__icon"><span class="icon i-zap"></span></div><div><h3>Execution That Is Fast, Organized &amp; Collaborative</h3><p>Creative work performs best when feedback and revisions are handled efficiently. Our workflow is designed to keep projects moving with clear communication, structured feedback cycles and quick turnaround times so your campaigns and content stay on schedule.</p></div></div>
+      <div class="feature reveal"><div class="feature__icon"><span class="icon i-settings"></span></div><div><h3>Flexible Support for Growing Businesses</h3><p>Whether you are a startup building your first online presence, a founder growing a personal brand or a business scaling marketing efforts, Cirova Studio provides adaptable support. Start with one service like video editing or website redesign, or combine multiple services for ongoing digital marketing support.</p></div></div>
+      <div class="feature reveal"><div class="feature__icon"><span class="icon i-target"></span></div><div><h3>Strategy-Driven Creative Work</h3><p>We believe creative output should support business goals, not just aesthetics. Every piece of content — whether it's a reel, landing page, blog post or ad creative — is developed with a clear objective such as improving visibility, increasing engagement or generating qualified leads.</p></div></div>
+      <div class="feature reveal"><div class="feature__icon"><span class="icon i-star"></span></div><div><h3>Content That Performs, Not Just Looks Good</h3><p>At Cirova Studio, design and marketing work together. Our videos, websites and campaigns are created to capture attention, communicate value clearly and encourage action — helping your brand build trust, attract the right audience and convert visitors into customers.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Process</span>
+      <h2 class="h2">How We <span class="grad-text">Work.</span></h2>
+      <p class="lead" style="margin-top:1rem">A simple, proven process to keep projects on track and your brand moving forward.</p>
+    </div>
+    <div class="steps" style="margin-top:2.5rem">
+      <div class="step reveal"><div class="step__icon"><span class="icon i-search"></span></div><div class="step__n">01</div><h3>Discovery and Strategy</h3><p>We understand your business, audience, competitors, goals and content gaps so we can recommend the right mix of services.</p></div>
+      <div class="step reveal"><div class="step__icon"><span class="icon i-workflow"></span></div><div class="step__n">02</div><h3>Planning and Production</h3><p>We create a workflow for your content, website, social media or ad campaigns and begin execution with clear priorities.</p></div>
+      <div class="step reveal"><div class="step__icon"><span class="icon i-check"></span></div><div class="step__n">03</div><h3>Review and Refinement</h3><p>You review the work, share feedback, and we refine the output to align with your brand voice and campaign objective.</p></div>
+      <div class="step reveal"><div class="step__icon"><span class="icon i-rocket"></span></div><div class="step__n">04</div><h3>Launch and Grow</h3><p>Once approved, we help publish, optimize and improve performance so your marketing keeps moving forward.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: AUDIENCE -->
+<section class="section section--wash">
+  <div class="container split">
+    <div class="split__copy reveal">
+      <span class="eyebrow">Who We Work With</span>
+      <h2 class="h2">Built for brands at <span class="grad-text">every stage.</span></h2>
+      <p class="lead" style="margin-top:1rem">Cirova Studio supports startups, e-commerce brands, coaches, personal brands, real estate businesses, clinics, education brands, agencies and service-based companies that need dependable digital marketing and creative support.</p>
+      <p class="muted" style="margin-top:1rem">Whether you need ongoing social media content, website redesign services, video editing for ads or a full digital marketing agency partner, we build solutions around your stage and goals.</p>
+      <div class="tag-cloud" style="margin-top:1.75rem">
+        <span class="pill"><span class="icon i-rocket"></span> Startups</span>
+        <span class="pill"><span class="icon i-shopping-bag"></span> E-commerce Brands</span>
+        <span class="pill"><span class="icon i-graduation-cap"></span> Coaches</span>
+        <span class="pill"><span class="icon i-user"></span> Personal Brands</span>
+        <span class="pill"><span class="icon i-house"></span> Real Estate</span>
+        <span class="pill"><span class="icon i-stethoscope"></span> Clinics</span>
+        <span class="pill"><span class="icon i-book-open"></span> Education Brands</span>
+        <span class="pill"><span class="icon i-building-2"></span> Agencies</span>
+        <span class="pill"><span class="icon i-wrench"></span> Service-based</span>
+        <span class="pill"><span class="icon i-briefcase"></span> Founders &amp; SMBs</span>
+      </div>
+    </div>
+    <div class="split__visual reveal">
+      <div class="aud-collage">
+        <figure class="aud-photo p1"><img src="<?php echo cs_uri(); ?>/assets/img/u-1522071820081-900.jpg" alt="Startup team working together" loading="lazy" width="900" height="1125"><span class="lbl">Startups</span></figure>
+        <figure class="aud-photo p2"><img src="<?php echo cs_uri(); ?>/assets/img/u-1551434678-800.jpg" alt="Real estate space" loading="lazy" width="800" height="1000"><span class="lbl">Real Estate</span></figure>
+        <figure class="aud-photo p3"><img src="<?php echo cs_uri(); ?>/assets/img/u-1560518883-600.jpg" alt="E-commerce checkout" loading="lazy" width="600" height="750"><span class="lbl">E-commerce</span></figure>
+        <figure class="aud-photo p4"><img src="<?php echo cs_uri(); ?>/assets/img/u-1559028012-800.jpg" alt="Agency analytics" loading="lazy" width="800" height="1000"><span class="lbl">Agencies</span></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: KEYWORD MARQUEE 3 -->
+<div class="marquee marquee--keywords">
+  <div class="marquee__track">
+    <span class="marquee__item">Built for today's search environment. <span class="dot"></span></span><span class="marquee__item">AI-ready. Locally relevant. <span class="dot"></span></span><span class="marquee__item">Conversion-focused by design. <span class="dot"></span></span>
+  </div>
+</div>
+
+<!-- SECTION: DISCOVERY -->
+<section class="section">
+  <div class="container split">
+    <div class="split__copy reveal">
+      <span class="eyebrow">Built for modern search</span>
+      <h2 class="h2">Designed for today's <span class="grad-text">discovery.</span></h2>
+      <p class="lead" style="margin-top:1rem">Our work is shaped for today's search environment, where brands need to appear not only in search engines but also in AI-generated answers, location-based discovery and platform-specific recommendations.</p>
+      <p class="muted" style="margin-top:1rem">That is why Cirova Studio focuses on clear service positioning, topic relevance, search-intent-based content, locally relevant messaging and conversion-focused pages that improve discoverability for both users and search systems.</p>
+    </div>
+    <div class="split__visual reveal">
+      <div class="disc-stack">
+        <!-- Google AI Overview -->
+        <article class="disc-card">
+          <div class="disc-card__head">
+            <span class="disc-card__logo"><span class="icon i-brand-google"></span></span>
+            <b>Google AI Overview</b>
+            <span class="disc-card__live" aria-hidden="true"></span>
+          </div>
+          <div class="sk-line w1"></div>
+          <div class="sk-line w1"></div>
+          <div class="sk-line w2"></div>
+          <div class="sk-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="disc-card__label">AI-generated answer</p>
+        </article>
+        <!-- Local Discovery -->
+        <article class="disc-card">
+          <div class="disc-card__head">
+            <span class="disc-card__logo"><span class="icon i-map-pin"></span></span>
+            <b>Local Discovery</b>
+            <span class="disc-card__live" aria-hidden="true"></span>
+          </div>
+          <div class="radar" aria-hidden="true"><span class="radar__scan"></span><span class="radar__pin"></span></div>
+          <p class="disc-card__label">Maps + Near-me</p>
+        </article>
+        <!-- Social Discovery -->
+        <article class="disc-card">
+          <div class="disc-card__head">
+            <span class="disc-card__logo"><span class="icon i-brand-instagram"></span></span>
+            <b>Social Discovery</b>
+            <span class="disc-card__live" aria-hidden="true"></span>
+          </div>
+          <div class="disc-stats">
+            <div class="disc-stat"><b>12.4k</b><span>Views</span></div>
+            <div class="disc-stat"><b>823</b><span>Likes</span></div>
+            <div class="disc-stat"><b>+38%</b><span>Reach</span></div>
+          </div>
+          <p class="disc-card__label">Reels + Posts + Reach</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: TESTIMONIALS -->
+<section class="section section--wash">
+  <div class="container section-head reveal">
+    <span class="eyebrow">What clients say</span>
+    <h2 class="h2">Words from <span class="grad-text">real brands.</span></h2>
+  </div>
+  <div class="marquee" style="margin-top:2rem">
+    <div class="testi-track">
+      <?php
+      $cs_stars = '<span class="stars" aria-hidden="true">' . str_repeat( '<span class="icon i-star-filled"></span>', 5 ) . '</span>';
+      if ( function_exists( 'have_rows' ) && have_rows( 'home_testimonials' ) ) :
+        while ( have_rows( 'home_testimonials' ) ) : the_row();
+          $cs_q = get_sub_field( 'quote' ); $cs_nm = get_sub_field( 'name' ); $cs_rl = get_sub_field( 'role' ); $cs_av = get_sub_field( 'avatar' );
+          $cs_avu = ( is_array( $cs_av ) && ! empty( $cs_av['url'] ) ) ? $cs_av['url'] : cs_uri() . '/assets/img/avatar-47.jpg'; ?>
+          <figure class="testi"><?php echo $cs_stars; ?><p><?php echo esc_html( $cs_q ); ?></p><figcaption class="testi__who"><img src="<?php echo esc_url( $cs_avu ); ?>" alt="<?php echo esc_attr( $cs_nm ); ?>" loading="lazy" width="44" height="44"><span><b><?php echo esc_html( $cs_nm ); ?></b><span><?php echo esc_html( $cs_rl ); ?></span></span></figcaption></figure>
+        <?php endwhile;
+      else :
+        $cs_t = array(
+          array( '"Cirova replaced our entire creative freelance roster. Faster turnarounds, better output, way less management."', 'Aisha Rahman', 'Founder, Lumen Co.', 'avatar-47' ),
+          array( '"Our reels finally feel like our brand. Conversion on the new landing page is up 38% in two months."', 'Daniel Park', 'Head of Growth, Northwind', 'avatar-12' ),
+          array( '"They run our social, write our blogs and edit every video — one team, zero chaos."', 'Maya Sharma', 'Marketing Lead, Halo Goods', 'avatar-49' ),
+          array( '"Strategy-first, design-second. Every asset has a job and does it."', 'Omar Khalid', 'CEO, Foundry', 'avatar-33' ),
+        );
+        foreach ( $cs_t as $t ) : ?>
+          <figure class="testi"><?php echo $cs_stars; ?><p><?php echo esc_html( $t[0] ); ?></p><figcaption class="testi__who"><img src="<?php echo esc_url( cs_uri() . '/assets/img/' . $t[3] . '.jpg' ); ?>" alt="<?php echo esc_attr( $t[1] ); ?>" loading="lazy" width="44" height="44"><span><b><?php echo esc_html( $t[1] ); ?></b><span><?php echo esc_html( $t[2] ); ?></span></span></figcaption></figure>
+        <?php endforeach;
+      endif; ?>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: CTA -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="cta reveal">
+      <div class="cta__inner">
+        <span class="eyebrow" style="justify-content:center;display:flex">Let's work together</span>
+        <h2 class="h2">Ready to Build a Brand That Looks Better and <span class="grad-text">Markets Smarter?</span></h2>
+        <p class="lead" style="margin:1rem auto 0">If you need a digital marketing agency that can handle creative content, video editing, social media, content writing, website design, redesign and paid ads with a clear growth focus, Cirova Studio is ready to help.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="<?php echo esc_url(home_url('/contact/')); ?>">Book a Free Consultation <span class="icon i-arrow-right" aria-hidden="true"></span></a>
+          <a class="btn btn--ghost" href="<?php echo esc_url(home_url('/contact/')); ?>">Request a Proposal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: FAQ -->
+<section class="section section--wash" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="justify-content:center;display:flex">FAQ</span>
+      <h2 class="h2">Frequently <span class="grad-text">asked.</span></h2>
+    </div>
+    <div class="faq" style="margin-top:2.5rem">
+      <?php
+      if ( function_exists( 'have_rows' ) && have_rows( 'home_faq' ) ) :
+        while ( have_rows( 'home_faq' ) ) : the_row();
+          $cs_fq = get_sub_field( 'question' ); $cs_fa = get_sub_field( 'answer' ); ?>
+          <div class="faq__item"><button class="faq__q" aria-expanded="false"><?php echo esc_html( $cs_fq ); ?> <span class="icon i-plus" aria-hidden="true"></span></button><div class="faq__a"><p><?php echo esc_html( $cs_fa ); ?></p></div></div>
+        <?php endwhile;
+      else :
+        $cs_faq = array(
+          array( 'What does Cirova Studio do?', 'Cirova Studio offers video editing, social media management, content writing, website creation, website redesign, Google Ads, Meta Ads and broader digital marketing support for growing brands.' ),
+          array( 'Do you work with small businesses and startups?', 'Yes. We work with startups, founders and small to mid-sized businesses that need quality creative and marketing support without building a full in-house team.' ),
+          array( 'Can I hire you for one service only?', 'Yes. You can hire us for a single service like video editing or website redesign, or choose a bundled solution for ongoing digital growth support.' ),
+          array( 'Do you offer custom packages?', 'Yes. We create tailored packages based on your monthly content needs, campaign goals and business stage.' ),
+          array( 'How do we get started?', 'Book a strategy call, tell us about your business, and we will recommend the best service plan for your goals.' ),
+        );
+        foreach ( $cs_faq as $f ) : ?>
+          <div class="faq__item"><button class="faq__q" aria-expanded="false"><?php echo esc_html( $f[0] ); ?> <span class="icon i-plus" aria-hidden="true"></span></button><div class="faq__a"><p><?php echo esc_html( $f[1] ); ?></p></div></div>
+        <?php endforeach;
+      endif; ?>
+    </div>
+  </div>
+</section>
+
+</main>
+<?php get_footer(); ?>

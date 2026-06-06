@@ -1,0 +1,19 @@
+/*
+Theme Name: Cirova Studio
+Theme URI: https://cirova-studio.vercel.app
+Author: Cirova Studio
+Author URI: https://cirova-studio.vercel.app
+Description: Premium dark agency theme for Cirova Studio — video editing, social media, content, websites and performance ads. Mobile-first, animated hero, self-contained assets.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cirova-studio
+Tags: agency, dark, one-column, custom-colors, full-width-template, footer-widgets
+
+This file is required by WordPress to register the theme. The actual design
+styles live in assets/css/style.css and are loaded via functions.php
+(wp_enqueue_style). Keep this header comment intact.
+*/

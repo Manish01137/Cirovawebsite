@@ -1,0 +1,26 @@
+{
+  "key": "group_cirova_settings",
+  "title": "Site Settings",
+  "fields": [
+    { "key": "field_cs_logo", "label": "Logo image", "name": "site_logo", "type": "image", "instructions": "Used in the header, footer, favicon and loader. Square PNG recommended.", "return_format": "array", "preview_size": "thumbnail", "library": "all" },
+    { "key": "field_cs_booking", "label": "Booking status badge", "name": "booking_status", "type": "text", "instructions": "Small pill shown in the hero, e.g. \"Now booking projects for Q3\".", "default_value": "Now booking projects for Q3" },
+    { "key": "field_cs_tagline", "label": "Footer tagline", "name": "footer_tagline", "type": "textarea", "rows": 2, "new_lines": "", "default_value": "A growth-focused marketing partner delivering strategy, creative production, and measurable results for modern brands." },
+    { "key": "field_cs_email", "label": "Contact email", "name": "contact_email", "type": "email", "default_value": "cirovastudio@gmail.com" },
+    { "key": "field_cs_phone", "label": "Contact phone", "name": "contact_phone", "type": "text", "default_value": "+91 9877147660" },
+    { "key": "field_cs_addr", "label": "Address line", "name": "contact_address", "type": "text", "default_value": "Gurugram, Haryana · India" },
+    { "key": "field_cs_note", "label": "Address note", "name": "contact_note", "type": "text", "default_value": "Remote worldwide" },
+    { "key": "field_cs_ig", "label": "Instagram URL", "name": "social_instagram", "type": "url" },
+    { "key": "field_cs_in", "label": "LinkedIn URL", "name": "social_linkedin", "type": "url" },
+    { "key": "field_cs_fb", "label": "Facebook URL", "name": "social_facebook", "type": "url" }
+  ],
+  "location": [[{ "param": "options_page", "operator": "==", "value": "cirova-settings" }]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "Global brand + contact settings used across the whole site.",
+  "show_in_rest": 0
+}
